@@ -1,0 +1,22 @@
+body{
+    margin: 0px;
+}
+.h1-tag{
+    color: blue;
+}
+.navbar{
+    border-bottom: 2px black solid;
+    background-color:rgb(175, 218, 246);
+    padding: 15px;
+    text-align: center;
+}
+.navbar a{
+    padding: 15px;
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+}
+
+.navbar a:hover{
+    color:rgb(0, 8, 254);
+    text-decoration: underline;
+}
