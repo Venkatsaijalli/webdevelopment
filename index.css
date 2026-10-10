@@ -15,8 +15,30 @@ body{
     text-decoration: none;
     color:rgb(0, 0, 0);
 }
-
 .navbar a:hover{
     color:rgb(0, 8, 254);
     text-decoration: underline;
+}
+.card{
+    border: 2px black solid;
+    border-radius: 20px;
+    width: 350px;
+    text-align: center;
+    margin: auto;
+    margin-top: 80px;
+    overflow: hidden;
+    padding-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+.card img{
+    width: 100%;
+}
+.card button{
+    width: 60%;
+    padding: 10px;
+    border-radius: 20px;
+}
+.card button:hover{
+    cursor: pointer;
+    background-color: beige;
 }
